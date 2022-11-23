@@ -11,8 +11,8 @@
     <groupId>com.example</groupId>
     <artifactId>skypro_3_2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>skypro_3_2</name>
-    <description>skypro_3_2</description>
+    <name>sky pro_3_2</name>
+    <description>sky pro_3_2</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -26,6 +26,24 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.6.13</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>xml-apis</groupId>
+            <artifactId>xml-apis</artifactId>
+            <version>2.0.2</version>
         </dependency>
     </dependencies>
 
